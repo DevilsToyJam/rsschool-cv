@@ -1,1 +1,1 @@
-# rsschool-cv
+https://DevilsToyJam.github.io/rsschool-cv/cv
