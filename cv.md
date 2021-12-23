@@ -43,8 +43,8 @@ const findErrorNums = function (nums) {
 * **Institue**: Russian-British Institute of Management. Bachelor in Business Informatics.
 
 * **Courses**:
-* [freeCodeCamp JS](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
-* [Udemy: Webdeveloper](https://www.udemy.com/course/webdeveloper/)
+    * [freeCodeCamp JS](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+    * [Udemy: Webdeveloper](https://www.udemy.com/course/webdeveloper/)
 
 ## English 
 B1
