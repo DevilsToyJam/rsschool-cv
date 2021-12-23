@@ -40,7 +40,11 @@ const findErrorNums = function (nums) {
 ## Experience
 ...
 ## Education
-Institue: Russian-British Institute of Management. Bachelor in Business Informatics.
+* **Institue**: Russian-British Institute of Management. Bachelor in Business Informatics.
+
+* **Courses**:
+* [freeCodeCamp JS](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+* [Udemy: Webdeveloper](https://www.udemy.com/course/webdeveloper/)
 
 ## English 
 B1
