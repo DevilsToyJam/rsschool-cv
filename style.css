@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-image: url("https://sun2.is74.userapi.com/impg/4Z_7FlBzS7XCTz0JLeydKVC9kWf_UXO1fEvK0A/PdmFEnv_fYU.jpg?size=1920x1080&quality=96&sign=753572fb893d160a7b5ba1fa4a1254e2&type=album");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    opacity: 0.8;
+    position: relative;
+    height: 75px; /* * */
+}
+nav {
+    position: fixed; /* * */
+    width: 100%; /* * */
+    height: 50px;
+    background-color: #bebebe;
+    z-index: 2; /* * */
+}
+.nav_container {
+    padding: 13px 70px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name_link {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 700;
+    color: #000;
+}
+.menu {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+.menu .menu_link {
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none; 
+}
+.menu .menu_link:hover {
+    text-decoration: underline; 
+}
+.menu .menu_item {
+    padding: 0 25px;
+}
