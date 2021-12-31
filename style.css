@@ -25,6 +25,14 @@ h2 {
     font-size: 2rem;
     font-weight: 700;
 }
+h3 {
+    border-top: 0.075rem solid #bebebe;
+    border-bottom: 0.075rem solid #bebebe;
+    padding: 1.725rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+}
 .container {
     position: relative;
     width: 71.25rem;
@@ -106,12 +114,49 @@ nav {
 }
 .education {
     margin-top: -3.725rem;
-    padding-top: 6.725rem;
+    padding-top: 3.725rem;
     background-color: #cfcfcf;
 }
 .education__subheader {
+    border-top: none;
     text-align: center;
 }
 .education__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     padding: 3.725rem;
+    row-gap: 2rem;
+}
+.education__degree_year {
+    text-align: right;
+    padding: 0 5.725rem;
+    border-right: 0.125rem dotted #bebebe;
+}
+.education__year {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.education__degree {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.education__study_place {
+    text-align: left;
+    padding: 0 5.725rem;
+}
+.education__place {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.education__info {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+.skills {
+    background-color: #cfcfcf;
 }
