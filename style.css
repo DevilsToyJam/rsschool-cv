@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: 1;
+    background-size: 100%;
 }
 img {
     max-width: 100%;
@@ -33,6 +34,9 @@ h3 {
     font-weight: 600;
     text-align: center;
 }
+
+
+
 .container {
     position: relative;
     width: 71.25rem;
@@ -121,7 +125,7 @@ nav {
     border-top: none;
     text-align: center;
 }
-.education__container {
+.education__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -159,4 +163,52 @@ nav {
 
 .skills {
     background-color: #cfcfcf;
+}
+.skills__wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 3.725rem 5.725rem;
+}
+.skills__item_container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    
+}
+.skills__icon {
+    display: block;
+    height: 5rem;
+    align-self: center;
+    margin: 0.5rem;
+}
+.skills__title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.code_example {
+    background-color: #cfcfcf;
+}
+.code_example__wrapper {
+    padding: 3.725rem 0;
+}
+.code_example__link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.code_example__question {
+    font-size: 1.125rem;
+}
+.code_example__question code {
+    font-size: 1rem;
+}
+.code_example__answer {
+    background-color: #dfdfdf;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 2rem;
 }
