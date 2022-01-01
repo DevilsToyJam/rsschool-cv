@@ -6,6 +6,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
     background-image: url("https://sun2.is74.userapi.com/impg/4Z_7FlBzS7XCTz0JLeydKVC9kWf_UXO1fEvK0A/PdmFEnv_fYU.jpg?size=1920x1080&quality=96&sign=753572fb893d160a7b5ba1fa4a1254e2&type=album");
@@ -22,11 +23,11 @@ h1 {
     font-size: 2.25rem;
     font-weight: 900;
 }
-h2 {
+h3 {
     font-size: 2rem;
     font-weight: 700;
 }
-h3 {
+h2 {
     border-top: 0.075rem solid #bebebe;
     border-bottom: 0.075rem solid #bebebe;
     padding: 1.725rem;
@@ -92,6 +93,9 @@ a:hover {
 .about_me {
     margin-top: -3.725rem;
     padding-top: 3.725rem;
+}
+.about_me p {
+    margin-top: 1.5rem;
 }
 .about_me__wrapper {
     display: grid;
@@ -251,7 +255,7 @@ a:hover {
     margin-top: -3.725rem;
     padding-top: 3.725rem;
 }
-.contacts h3 {
+.contacts h2 {
     border-bottom: 0.075rem solid #cfcfcf
 }
 .contacts .container {
@@ -266,6 +270,9 @@ a:hover {
 .contacts__columns {
     border-right: 0.125rem dotted #cfcfcf;
     padding: 0 3rem;
+}
+.contacts__columns:last-child {
+    border-style: none;
 }
 .contacts__type {
     font-size: 1.125rem;
@@ -285,17 +292,16 @@ a:hover {
 }
 .footer__wrapper {
     height: 4.125rem;
-    margin: 0 1.5rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 3rem;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 .footer__rss_logo {
     height: 95%;
     align-self: center;
 }
 .footer__year {
+    margin-right: 4rem;
     align-self: center;
     font-size: 1.5rem;
     font-weight: 600;
