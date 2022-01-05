@@ -13,7 +13,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: 1;
-    background-size: 100%;
+    background-size: cover;
 }
 img {
     max-width: 100%;
