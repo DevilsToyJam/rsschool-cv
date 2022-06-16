@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("https://sun2.is74.userapi.com/impg/4Z_7FlBzS7XCTz0JLeydKVC9kWf_UXO1fEvK0A/PdmFEnv_fYU.jpg?size=1920x1080&quality=96&sign=753572fb893d160a7b5ba1fa4a1254e2&type=album");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    background-size: cover;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+h1 {
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+h2 {
+    border-top: 0.075rem solid #bebebe;
+    border-bottom: 0.075rem solid #bebebe;
+    padding: 1.725rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+}
+.container {
+    position: relative;
+    width: 71.25rem;
+    margin: 0 auto;
+}
+header {
+    position: relative;
+    height: 8rem; 
+    overflow: hidden;
+    z-index: 2;
+}
+nav {
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    height: 3.725rem;
+    background-color: #bebebe;
+}
+a:hover {
+    text-decoration: underline; 
+}
+
+.nav__container {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name__link {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #000;
+}
+
+
+.menu {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    justify-content: center;
+}
+.menu__link {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none; 
+}
+.menu__item {
+    padding: 0 1.5rem;
+}
+
+
+/* about me section */
+.about_me {
+    margin-top: -3.725rem;
+    padding-top: 3.725rem;
+}
+.about_me p {
+    margin-top: 1.5rem;
+}
+.about_me__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 25rem;
+    column-gap: 0.625rem;
+}
+.about_me__photo {
+    display: block;
+}
+.about_me__info {
+    background-color: #bebebe;
+    margin-left: -1rem;
+    padding: 2.725rem;
+}
+.about_me__text {
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.about_me__links {
+    background-color: #7a7a7a;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 20rem;
+    height: 3.725rem;
+}
+
+
+/* education section */
+.education {
+    margin-top: -3.725rem;
+    padding-top: 3.725rem;
+    background-color: #cfcfcf;
+}
+.education__subheader {
+    border-top: none;
+    text-align: center;
+}
+.education__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 2.725rem;
+    row-gap: 2rem;
+}
+.education__degree_year {
+    text-align: right;
+    padding: 0 5.725rem;
+    border-right: 0.125rem dotted #bebebe;
+}
+.education__year {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.education__degree {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.education__study_place {
+    text-align: left;
+    padding: 0 5.725rem;
+}
+.education__place {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.education__info {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+/* skills section */
+.skills {
+    margin-top: -3.725rem;
+    padding-top: 3.725rem;
+    background-color: #cfcfcf;
+}
+.skills__wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2.725rem 5.725rem;
+}
+.skills__item_container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    border-right: 0.125rem dotted #bebebe;
+}
+.skills__item_container:last-child {
+    border-style: none;
+}
+.skills__icon {
+    display: block;
+    height: 5rem;
+    align-self: center;
+    margin: 0.5rem;
+}
+.skills__title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+
+/* code example section */
+.code_example {
+    margin-top: -3.725rem;
+    padding-top: 3.725rem;
+    background-color: #cfcfcf;
+}
+.code_example__wrapper {
+    padding: 2.725rem 0;
+}
+.code_example__link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.code_example__question {
+    font-size: 1.125rem;
+}
+.code_example__question code {
+    font-size: 1rem;
+}
+.code_example__answer {
+    background-color: #dfdfdf;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+
+
+/* projects section */
+.projects {
+    margin-top: -3.725rem;
+    padding-top: 3.725rem;
+    background-color: #cfcfcf;
+}
+.projects__wrapper {
+    padding: 3.725rem;
+    text-align: center;
+}
+.projects__name_link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.projects__item_cv {
+    display: block;
+    height: 12rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    opacity: 0.5;
+    border: 0.125rem solid #b9b9b9;
+}
+.projects__item_cv:hover {
+    opacity: 1;
+    box-shadow: 0rem 0.4rem 0.8rem 0.1rem #5757578f;
+}
+
+/* contacts section  */
+.contacts {
+    margin-top: -3.725rem;
+    padding-top: 3.725rem;
+}
+.contacts h2 {
+    border-bottom: 0.075rem solid #cfcfcf
+}
+.contacts .container {
+    background-color: #bebebe;
+    
+}
+.contacts__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2.725rem 5.725rem;
+}
+.contacts__columns {
+    border-right: 0.125rem dotted #cfcfcf;
+    padding: 0 3rem;
+}
+.contacts__columns:last-child {
+    border-style: none;
+}
+.contacts__type {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.contacts__info {
+    font-size: 1rem;
+    font-weight: 500;
+    list-style: none;
+}
+
+
+/* footer */
+.footer {
+    margin-top: 4.275rem;
+    background-color: #bebebe;
+}
+.footer__wrapper {
+    height: 4.125rem;
+    padding: 0.5rem 3rem;
+    display: flex;
+    justify-content: space-between;  
+}
+.footer__rss_logo {
+    height: 95%;
+    align-self: center;
+}
+.footer__year {
+    margin-right: 4rem;
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
